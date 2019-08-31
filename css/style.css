@@ -1,0 +1,138 @@
+/*Подключение шрифтов*/
+@font-face {
+  font-family: 'Arial';
+  src: url('fonts/ArialMT.eot');
+  src: url('fonts/ArialMT.eot?#iefix') format('embedded-opentype'), url('../fonts/ArialMT.woff2') format('woff2'), url('../fonts/ArialMT.woff') format('woff'), url('../fonts/ArialMT.ttf') format('truetype'), url('../fonts/ArialMT.svg#ArialMT') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.header {
+  padding: 45px;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Indie Flower', cursive;
+  background: url(../i/фон.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.nav {
+  padding-top: 100px;
+  font-size: 30px;
+  color: white;
+  text-decoration: underline;
+}
+.reviews {
+  padding-top: 100px;
+  font-size: 30px;
+  color: white;
+  text-decoration: underline;
+}
+.slider {
+  background-color: white;
+  width: 584px;
+  height: 636px;
+  padding: 26px;
+}
+.text {
+  padding-top: 19px;
+}
+.textLast {
+  text-align: center;
+}
+.header {
+  padding: 45px;
+}
+body {
+  background: url(../i/фон.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.nav {
+  padding-top: 100px;
+  font-size: 30px;
+  color: white;
+}
+.reviews {
+  padding-top: 100px;
+  font-size: 30px;
+  color: white;
+  text-decoration: underline;
+}
+.slider {
+  background-color: white;
+  width: 584px;
+  height: 636px;
+  padding: 26px;
+}
+.text {
+  padding-top: 19px;
+}
+.textLast {
+  text-align: center;
+}
+li {
+  list-style-type: none;
+  /* Убираем маркеры */
+  text-decoration: underline;
+  display: inline-block;
+}
+.form {
+  width: 440px;
+  height: 510px;
+  background-color: rgba(255, 255, 255, 0.93);
+  border-radius: 10px;
+  padding: 40px;
+}
+input {
+  height: 52px;
+  width: 350px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+#button {
+  width: 176px;
+  background-color: #fce021;
+  margin-left: 100px;
+  margin-right: 150px;
+  text-transform: uppercase;
+  font-size: 26px;
+  -webkit-box-shadow: 0px 1px #808080;
+          box-shadow: 0px 1px #808080;
+}
+@media screen and (max-width: 600px) {
+  .logo img {
+    width: 30%;
+  }
+  body {
+    font-size: 9px;
+    color: green;
+  }
+  input {
+    height: 20px;
+    width: 150px;
+  }
+  .reviews {
+    display: none;
+  }
+  .nav {
+    display: none;
+  }
+  .form {
+    display: none;
+  }
+  .call {
+    display: none;
+  }
+
+}
+
+
+@media screen and (min-width: 1000px) {
+  
+  #button {
+display: none;
+
+  }
+}
